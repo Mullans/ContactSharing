@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+Points.h"
+#import "FramedImage.h"
+@import Contacts;
+@import MessageUI;
+@interface ViewController : UIViewController{
+    FramedImage* mainImage;
+    UILabel* name;
+    UIButton* settingsButton;
+    UIButton* menuButton;
+    UIButton* profileButton;
+    UIButton* recipientButton;
+}
 
-@interface ViewController : UIViewController
-
+-(void)SMSMessageSend;
 
 @end
 
