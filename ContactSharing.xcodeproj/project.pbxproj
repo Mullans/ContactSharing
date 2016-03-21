@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D324C4C1C9F86A100F9E6D0 /* FramedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D324C4B1C9F86A100F9E6D0 /* FramedImageViewController.m */; };
 		3DCFCF151C9F1CD100C31BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF141C9F1CD100C31BBD /* main.m */; };
 		3DCFCF181C9F1CD100C31BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF171C9F1CD100C31BBD /* AppDelegate.m */; };
 		3DCFCF1B1C9F1CD100C31BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF1A1C9F1CD100C31BBD /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		3DCFCF311C9F1CD100C31BBD /* ContactSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF301C9F1CD100C31BBD /* ContactSharingTests.m */; };
 		3DCFCF3C1C9F1CD100C31BBD /* ContactSharingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF3B1C9F1CD100C31BBD /* ContactSharingUITests.m */; };
 		3DCFCF4B1C9F1F1000C31BBD /* UIView+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF4A1C9F1F1000C31BBD /* UIView+Points.m */; };
-		3DCFCF511C9F49E200C31BBD /* FramedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFCF501C9F49E200C31BBD /* FramedImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D324C4A1C9F86A100F9E6D0 /* FramedImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FramedImageViewController.h; path = MultipurposeClasses/FramedImageViewController.h; sourceTree = "<group>"; };
+		3D324C4B1C9F86A100F9E6D0 /* FramedImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FramedImageViewController.m; path = MultipurposeClasses/FramedImageViewController.m; sourceTree = "<group>"; };
 		3DCFCF101C9F1CD100C31BBD /* ContactSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCFCF141C9F1CD100C31BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DCFCF161C9F1CD100C31BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,8 +59,6 @@
 		3DCFCF3D1C9F1CD100C31BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCFCF491C9F1F1000C31BBD /* UIView+Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Points.h"; path = "MultipurposeClasses/UIView+Points.h"; sourceTree = "<group>"; };
 		3DCFCF4A1C9F1F1000C31BBD /* UIView+Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Points.m"; path = "MultipurposeClasses/UIView+Points.m"; sourceTree = "<group>"; };
-		3DCFCF4F1C9F49E200C31BBD /* FramedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FramedImage.h; path = MultipurposeClasses/FramedImage.h; sourceTree = "<group>"; };
-		3DCFCF501C9F49E200C31BBD /* FramedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FramedImage.m; path = MultipurposeClasses/FramedImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				3DCFCF171C9F1CD100C31BBD /* AppDelegate.m */,
 				3DCFCF191C9F1CD100C31BBD /* ViewController.h */,
 				3DCFCF1A1C9F1CD100C31BBD /* ViewController.m */,
-				3DCFCF4F1C9F49E200C31BBD /* FramedImage.h */,
-				3DCFCF501C9F49E200C31BBD /* FramedImage.m */,
+				3D324C4A1C9F86A100F9E6D0 /* FramedImageViewController.h */,
+				3D324C4B1C9F86A100F9E6D0 /* FramedImageViewController.m */,
 				3DCFCF491C9F1F1000C31BBD /* UIView+Points.h */,
 				3DCFCF4A1C9F1F1000C31BBD /* UIView+Points.m */,
 				3DCFCF1C1C9F1CD100C31BBD /* Main.storyboard */,
@@ -284,10 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCFCF1B1C9F1CD100C31BBD /* ViewController.m in Sources */,
+				3D324C4C1C9F86A100F9E6D0 /* FramedImageViewController.m in Sources */,
 				3DCFCF181C9F1CD100C31BBD /* AppDelegate.m in Sources */,
 				3DCFCF4B1C9F1F1000C31BBD /* UIView+Points.m in Sources */,
 				3DCFCF151C9F1CD100C31BBD /* main.m in Sources */,
-				3DCFCF511C9F49E200C31BBD /* FramedImage.m in Sources */,
 				3DCFCF211C9F1CD100C31BBD /* ContactSharing.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +512,7 @@
 				3DCFCF421C9F1CD100C31BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCFCF431C9F1CD100C31BBD /* Build configuration list for PBXNativeTarget "ContactSharingTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				3DCFCF451C9F1CD100C31BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCFCF461C9F1CD100C31BBD /* Build configuration list for PBXNativeTarget "ContactSharingUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				3DCFCF481C9F1CD100C31BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

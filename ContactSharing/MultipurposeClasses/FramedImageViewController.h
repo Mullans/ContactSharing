@@ -1,5 +1,5 @@
 //
-//  FramedImage.h
+//  FramedImageViewController.h
 //  ContactSharing
 //
 //  Created by Sean Mullan on 3/20/16.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+Points.h"
-@interface FramedImage : UIView
+@interface FramedImageViewController : UIViewController
 @property CAShapeLayer* border;
--(void)setImage:(UIImage*)newImage;
+@property NSInteger index;
+-(void)setImage:(UIImage*)newImage inFrame:(CGRect)frame;
+-(void)loadView:(CGRect)frame;
 @end

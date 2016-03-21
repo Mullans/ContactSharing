@@ -9,15 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "UIView+Points.h"
 #import "FramedImage.h"
+#import "FramedImageViewController.h"
 @import Contacts;
 @import MessageUI;
-@interface ViewController : UIViewController{
-    FramedImage* mainImage;
+@interface ViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>{
+    UIPageViewController *pageController;
+    UIView* greyStripe;
     UILabel* name;
     UIButton* settingsButton;
     UIButton* menuButton;
-    UIButton* profileButton;
+    
     UIButton* recipientButton;
+    UIButton* profileButton;
+    
+    NSArray* profiles;
 }
 
 -(void)SMSMessageSend;
